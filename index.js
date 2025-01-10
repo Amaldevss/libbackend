@@ -9,8 +9,8 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://akashchandrancvn21:danil@cluster0.xej8i.mongodb.net/Library?retryWrites=true&w=majority
-");
+mongoose.connect("mongodb+srv://akashchandrancvn21:danil@cluster0.xej8i.mongodb.net/Library?retryWrites=true&w=majority")
+
 
 
 app.post('/signup', async (req, res) => {
